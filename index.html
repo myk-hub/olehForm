@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>quizApp</title>
+  </head>
+  <body>
+    <form class="form-data" action="index.html" method="post">
+        <h2>Sample Google Quiz</h2>
+        <span>* necessarily</span>
+        <div class="form-data__your-name">
+          <h3>Your name<span> *</span></h3>
+          <p>Firstname Lastname</p>
+          <input type="text" name="your-name" value="" placeholder="My answer">
+        </div>
+
+        <div class="form-data__expirience">
+          <h3>Total experience with HTML</h3>
+          <p>Enter number in months, f. e. 5</p>
+          <input type="text" name="" value="" placeholder="My answer">
+        </div>
+
+        <div class="form-data__question-1">
+          <h3>Question-1<span> *</span></h3>
+          <p>Just one correct answer</p>
+          <p><input name="radio" type="radio" value="answer-1">Answer-1</p>
+          <p><input name="radio" type="radio" value="answer-2">Answer-2 (correct)</p>
+          <p><input name="radio" type="radio" value="answer-3">Answer-3</p>
+        </div>
+
+        <div class="form-data__question-2">
+          <h3>Question-2<span> *</span></h3>
+          <p>Can be one to four correct answers</p>
+          <p><input type="checkbox" name="option3" value="option-1">Option-1</p>
+          <p><input type="checkbox" name="option4" value="option-2">Option-2</p>
+          <p><input type="checkbox" name="option5" value="option-3">Option-3(correct)</p>
+          <p><input type="checkbox" name="option5" value="option-4">Option-4(correct)</p>
+        </div>
+
+        <div class="form-data__last-question">
+          <h3>What will be the result of this operation: 1+1<span> *</span></h3>
+          <p>Enter the result only</p>
+          <input type="text" name="" value="" placeholder="My answer">
+        </div>
+
+        <div class="form-data__final-area">
+          <button type="button" name="button">Send</button>
+          <progress value="50" max="100">3%</progress>
+        </div>
+    </form>
+  </body>
+</html>
